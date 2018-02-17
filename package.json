@@ -1,0 +1,21 @@
+{
+  "name": "material",
+  "version": "0.0.0",
+  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "main": "server.js",
+  "repository": "",
+  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "dependencies": {
+    "less": "^2.7.3"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "jekyll": "^3.0.0-beta1",
+    "less": "^2.7.3",
+    "less-plugin-functions": "^1.0.0",
+    "normalize.css": "^7.0.0",
+    "normalize.less": "^1.0.0",
+    "pug": "^2.0.0-rc.4",
+    "roboto-fontface": "^0.8.0"
+  }
+}

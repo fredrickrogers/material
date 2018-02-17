@@ -1,0 +1,53 @@
+---
+"/home/ubuntu/workspace/index.html":
+  mtime: 2018-02-16 19:57:15.469480619 +00:00
+  deps:
+  - "/home/ubuntu/workspace/_layouts/default.html"
+  - "/home/ubuntu/workspace/_includes/header.html"
+"/home/ubuntu/workspace/dist/material.css":
+  mtime: 2018-02-16 19:10:09.219704710 +00:00
+  deps: []
+"/home/ubuntu/workspace/less/components/app-bar.less":
+  mtime: 2018-02-02 18:35:40.000000000 +00:00
+  deps: []
+"/home/ubuntu/workspace/less/components/chips.less":
+  mtime: 2018-02-16 17:49:07.822008440 +00:00
+  deps: []
+"/home/ubuntu/workspace/less/css/color-variables.less":
+  mtime: 2018-02-16 17:48:29.686636034 +00:00
+  deps: []
+"/home/ubuntu/workspace/less/css/color.less":
+  mtime: 2018-02-16 18:40:44.295690540 +00:00
+  deps: []
+"/home/ubuntu/workspace/less/css/typography.less":
+  mtime: 2018-02-16 19:10:03.271178868 +00:00
+  deps: []
+"/home/ubuntu/workspace/less/material.less":
+  mtime: 2018-02-16 18:38:39.480659757 +00:00
+  deps: []
+"/home/ubuntu/workspace/less/mixins/border-radius.less":
+  mtime: 2018-02-16 18:35:21.103127799 +00:00
+  deps: []
+"/home/ubuntu/workspace/less/mixins/colors.less":
+  mtime: 2018-02-16 18:39:58.735664076 +00:00
+  deps: []
+"/home/ubuntu/workspace/less/mixins/mixins.less":
+  mtime: 2018-02-16 18:40:21.805702940 +00:00
+  deps: []
+"/home/ubuntu/workspace/less/variables/variables.less":
+  mtime: 2018-02-16 19:00:59.171080846 +00:00
+  deps: []
+"/home/ubuntu/workspace/server.js":
+  mtime: 2017-08-31 12:41:49.000000000 +00:00
+  deps: []
+"/home/ubuntu/workspace/_layouts/default.html":
+  mtime: 2018-02-16 20:07:56.050084650 +00:00
+  deps: []
+"/home/ubuntu/workspace/_includes/header.html":
+  mtime: 2018-02-16 20:07:37.324429966 +00:00
+  deps: []
+"/home/ubuntu/workspace/docs/typography.html":
+  mtime: 2018-02-16 20:17:02.958403986 +00:00
+  deps:
+  - "/home/ubuntu/workspace/_includes/header.html"
+  - "/home/ubuntu/workspace/_layouts/default.html"
