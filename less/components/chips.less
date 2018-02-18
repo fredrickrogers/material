@@ -1,13 +1,31 @@
 span.chip {
     background-color: @chip-background-color;
-    min-width: 3rem;
-    padding: 0 @chip-padding;
-    text-align: center;
+    color: @chip-text-color;
+    display: inline-block;
     font-size: @chip-text-size;
-    color:@chip-text-color;
-    line-height: @chip-height;
     height: @chip-height;
-    float: right;
+    line-height: @chip-height;
+    padding: 0 @chip-padding;
+    color:@chip-text-color;
     box-sizing: border-box;
-    border-radius: 2px;
+    .border-radius((@chip-height / 2));
+    
+    .close {
+        color: rgba(0,0, 0, .54);
+        cursor: pointer;
+        float: right;
+        font-size: @chip-text-size;
+        line-height: @chip-height;
+        margin: 0 4px;
+        padding-left: 8px;
+        
+    }
+    
+    img {
+        .border-radius(50%);
+        float: left;
+        margin: 0 8px 0 -12px;
+        height: 32px;
+        width: 32px;
+    }
 }

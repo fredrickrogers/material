@@ -536,6 +536,25 @@ template {
 @link-color : @color(@lightblue, 400);
 @font-size-sm : @font-size-base * .875);
 @font-size-lg : @font-size-base * 1.25);
+/* Text Sizes */
+.align-baseline {
+  vertical-align: baseline !important;
+}
+.align-top {
+  vertical-align: top !important;
+}
+.align-middle {
+  vertical-align: middle !important;
+}
+.align-bottom {
+  vertical-align: bottom !important;
+}
+.align-text-bottom {
+  vertical-align: text-bottom !important;
+}
+.align-text-top {
+  vertical-align: text-top !important;
+}
 .red-base {
   background-color: #F44336 !important;
 }
@@ -2136,16 +2155,87 @@ p {
   padding-left: 16px;
   padding-right: 16px;
 }
+.btn,
+.btn-flat {
+  border: none;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 0.875rem;
+  min-width: 4rem;
+  height: 2.25rem;
+  line-height: 2.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.btn + .btn,
+.btn-flat + .btn,
+.btn + .btn-flat,
+.btn-flat + .btn-flat {
+  margin-left: 0;
+}
+.btn {
+  background: #F44336;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.btn:hover {
+  background-color: #ea1c0d;
+}
+.btn:active {
+  background-color: #D32F2F;
+}
+.btn-flat {
+  background-color: transparent;
+  box-shadow: none;
+  color: #2196F3;
+  cursor: pointer;
+}
+.btn-flat:focus,
+.btn-flat:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+}
+.btn-flat:active {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
 span.chip {
   background-color: #e0e0e0;
-  min-width: 3rem;
-  padding: 0 12px;
-  text-align: center;
+  display: inline-block;
   font-size: 13px;
-  color: rgba(0, 0, 0, 0.87);
-  line-height: 32px;
   height: 32px;
-  float: right;
+  line-height: 32px;
+  padding: 0 12px;
+  color: rgba(0, 0, 0, 0.87);
   box-sizing: border-box;
-  border-radius: 2px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+}
+span.chip .close {
+  color: rgba(0, 0, 0, 0.54);
+  cursor: pointer;
+  float: right;
+  font-size: 13px;
+  line-height: 32px;
+  margin: 0 4px;
+  padding-left: 8px;
+}
+span.chip img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  float: left;
+  margin: 0 8px 0 -12px;
+  height: 32px;
+  width: 32px;
 }

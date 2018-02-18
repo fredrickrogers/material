@@ -14,7 +14,7 @@ exclude:
   - js/
   - node_modules/
   - nuget/
-  - scss/
+  - less/
   - vendor/
   - CODE_OF_CONDUCT.md
   - composer.json
@@ -27,6 +27,7 @@ exclude:
   - sache.json
   - twbsconfig.yml
   - server.js
+  - .c9/
   
 site:
   authors:
