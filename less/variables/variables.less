@@ -34,15 +34,26 @@
 // 3. Buttons
 // =======================================================
 @button-height: 2.25rem;
-@button-bg-color: @primary-color;
+@button-bg-color: @secondary-color;
 @button-bg-color-active: color(@red, 700);
 @button-text-color: white;
 @button-text-color-flat: color(@blue, base);
 @button-text-size: 0.875rem;
+@button-icon-size: 1.3rem;
 @button-min-width: 4rem;
 @button-margin: .5rem;
 @button-padding: 1rem;
 @button-border-radius: 2px;
+
+@button-raised-background: @secondary-color;
+@button-raised-background-hover: lighten(@button-raised-background, 5%);
+@button-raised-color: #FFF;
+
+@button-flat-color: #343434;
+@button-flat-disabled-color: lighten(#999, 10%);
+
+@button-disabled-background: darken(#FFFFFF, 30%);
+@button-disabled-color: darken(#FFFFFF, 12%);
 
 // 3. Typography
 // ========================================================
